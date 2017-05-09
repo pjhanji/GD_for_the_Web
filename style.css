@@ -1,0 +1,132 @@
+body{
+	background-color: black;
+	font-family: Helvetica, Arial, Sans-Serif;
+
+}
+
+h1 {
+	font-family: Helvetica, Arial, Sans-Serif;
+	color: #2B00FF;
+	text-align: left;
+	margin:11px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 2.5;
+	letter-spacing: 1px;
+	font-size: 30px;
+
+
+}
+a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 2.5;
+	letter-spacing: 1px;
+	font-size: 80px;
+
+}
+div {
+	padding-left: 40px;
+}
+
+.like-love{
+				height:200px;
+				width:600px;
+				background: black;
+		}
+
+.like-love:hover {
+    			background-color: blue !important;
+    			transition: .5s;
+    			width:1385px;
+}
+
+.taxonomy{
+				height:200px;
+				width:600px;
+				background: black;
+		}
+
+.taxonomy:hover {
+    			background-color: #7A2FFF !important;
+    			transition: .5s;
+    			width:1385px;
+    			
+}
+
+.reactions{
+				height:200px;
+				width:600px;
+				background: black;
+		}
+
+.reactions:hover {
+    			background-color: #FF008F !important;
+    			transition: .5s;
+    			width:1385px;
+    			
+}
+
+.telephone{
+				height:200px;
+				width:600px;
+				background: black;
+		}
+
+.telephone:hover {
+    			background-color: red !important;
+    			transition: .5s;
+    			width:1385px;
+}
+
+.project2{
+				height:200px;
+				width:600px;
+				background: black;
+		}
+
+.project2:hover {
+    			background-color: orange !important;
+    			transition: .5s;
+    			width:1385px;
+}
+
+.pinterest{
+				height:200px;
+				width:600px;
+				background: black;
+		}
+
+.pinterest:hover {
+    			background-color: yellow !important;
+    			transition: .5s;
+    			width:1385px;
+}
+
+.inclass{
+				height:200px;
+				width:600px;
+				background: black;
+		}
+
+.inclass:hover {
+    			background-color: green !important;
+    			transition: .5s;
+    			width:1385px;
+}
+
+
+.p3proposal{
+				height:200px;
+				width:600px;
+				background: black;
+		}
+
+.p3proposal:hover {
+    			background-color: #00FFAE !important;
+    			transition: .5s;
+    			width:1385px;
+}

@@ -1,0 +1,67 @@
+h1, h4{font-family: din, arial, sans-serif;
+    font-size: 50px;
+    color: purple;
+    text-align: left;
+    margin: 0px;
+    font-weight: 300;
+    letter-spacing: -2px;
+    text-align: center;
+    text-decoration: bold;
+    margin-top: 20px;
+    }
+.item{
+    width:400px;
+    min-height:475px;
+    margin:10px;
+    float:left;
+    padding-top:20px;
+    padding-bottom:20px;
+    }
+.mainimg{
+        width:400px;
+}
+
+.links{
+       width:400px;
+       height:40px;
+       text-align: center;
+}
+.links img { 
+    width: 40px;
+    margin: 3px;
+    cursor: pointer;
+}
+.links img:hover { 
+    width: 46px;
+    margin: 0px;
+}
+.links img.sm {
+    width: 20px;
+    margin: 8px;
+}
+.counters_container {
+    clear:both;
+    width: 100%;
+    text-align: center;
+    /*position: fixed;
+    bottom: 0px;*/
+    background-color: white;
+    border-top: 1px solid #CCC;
+}
+.counters {
+    width: 420px;
+    height: 100px;
+    margin: 0 auto;
+}
+.counters .icon { 
+    width: 60px;
+    float: left;
+}
+.counters .ctr { 
+    font-size: 18px;
+    text-align: center;
+    color: #666;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.counters img { width: 60px;}
+.counters img.sm { width: 40px; margin: 10px;}
