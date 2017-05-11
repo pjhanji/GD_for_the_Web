@@ -4,12 +4,14 @@
 <title>Privacy Interaction</title>
 <meta charset="utf-8" />
    <link rel="stylesheet" type="text/css" href="project3.css">
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
 <div class="title">
-<h1>Click on the images to delete.</h1><br>
+<p>Click on images to delete</p>
+<h1>NOTHING CAN TRULY BE DELETED.</h1></div>
+<div class="row">
 <img src="fbimages/post1.png" style="width:400px;">
 <img src="fbimages/fbi1.png" style="width:200px;">
 <img src="fbimages/fbi7.png" style="width:200px;">
@@ -28,5 +30,14 @@
 <img src="fbimages/fbi6.png" style="width:150px;">
 <img src="fbimages/post8.png" style="width:300px;">
 </div>
+</div>
+<script type="text/javascript" language="javascript">
+$(function () {
+        $('.row img').click(function () {
+        	$('.row img').css({"transition":"0.5s","opacity":"1","filter":"blur(0px)","border-radius":"0%"});
+            $(this).css({"transition":"0.5s","opacity":"0.2","filter":"blur(5px)","border-radius":"50%","transform":"rotate(360deg)"});
+        });
+    }); 
+  </script>
 </body>
 </html>

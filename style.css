@@ -130,3 +130,16 @@ div {
     			transition: .5s;
     			width:1385px;
 }
+
+.project3{
+				height:200px;
+				width:600px;
+				background: black;
+		}
+
+.project3:hover {
+    			background-color: #0594FF !important;
+    			transition: .5s;
+    			width:1385px;
+}
+
